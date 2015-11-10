@@ -1,0 +1,12 @@
+/* adding styles to generating dynamic table in html*/
+div{
+      margin: 0 auto;
+      align-items: center;
+      align-self: center;
+      display: inline-grid;
+      width: 30%;
+      height: 50%;
+}
+label{
+        margin-left: 10%;
+}
