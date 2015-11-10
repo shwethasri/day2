@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- create login page -->
+<html>
+  <head>
+    <!-- title of the page -->
+      <title> Login Page </title>
+      <!-- css file link-->
+      <link rel="stylesheet" type="text/css" href="login.css">
+      <!-- inline css-->
+      <style>
+          hr{
+                color: #3399ff;
+            }
+      </style>
+  </head>
+  <body>
+    <center>
+    <!-- login form div-->
+    <div id="login">
+      <!-- login form -->
+        <form>
+            <!-- adding logo -->
+            <img id="logo" src="logo.jpeg" alt="icon">
+            <br>
+            <br>
+            <br>
+            <!-- labels for login controls -->
+            <label id="usernamelbl">Username:</label>
+            <br>
+            <!-- textboxes for login data-->
+            <textbox id="usernametextbox"> <input type="text"></textbox>
+            <br>
+            <br>
+            <label id="passwordlbl">Password:</label>
+            <br>
+            <textbox id="passwordtextbox"><input type="password"></textbox>
+            <br>
+            <br>
+            <!-- buttons for login-->
+            <button id="loginbtn" type="button">login</button>
+            <br>
+            <br>
+            <span>or</span>
+            <hr>
+            <br>
+            <button id="googleloginid" type="button"><img src="gplus.png" alt="icon" width="80%" height="50%" ></button>
+            <button id="fblogin" type="button"><img src="fblogo.png" alt="icon" width="80%" height="50%" ></button>
+            <br>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <!-- links for signup and getpassword-->
+            <a id="getpassword" href="getpassword.html"> forget password</a>
+            <a id="signup" href="signup.html"> sign up</a>
+            <br>
+            <br>
+        </form>
+    </div>
+  </center>
+  </body>
+</html>
